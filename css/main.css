@@ -1,0 +1,429 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  color: black;
+  font-size: 16px;
+  overflow-x: hidden;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li {
+  display: block;
+    padding: 0px;
+}
+
+.container {
+  width: 1215px;
+  margin: 0 auto; 
+  padding-left: 15px;
+  }
+
+
+
+.header {
+    background-color: #fff;
+}
+
+.header a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    z-index:9999
+}
+.logo {
+    margin-right: 76px;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.menu li img {
+    height: 17px;
+    width: 17px;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+.tel1 {
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 207px;
+    margin-right: 21px;
+} 
+.tel2 {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 21px;
+}
+.mail {
+    font-size: 14px;
+    margin-right: 21px;
+    padding: 0px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.offer {
+  margin-top: 57px;
+}
+
+.offer p {
+  font-size: 16px;
+  width: 361px;
+height: 46px;
+margin-bottom: 80px;
+}
+
+.offer h1 {
+  font-size: 45px;
+  margin-bottom: 58px;
+  margin-top: 57px;
+    width: 380px;
+height: 174px;
+}
+
+.offer h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 58px;
+    width: 361px;
+height: 46px;
+}
+
+
+.btn {
+
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 50px;
+  border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+  width: 100px;
+  transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #ECF9F8;
+    color: #000;
+}
+
+.btn:active {
+    background: #B5EFEB;
+    color: #000;
+}
+
+.description {
+  display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+}
+.mayakimg {
+   background: url('.../img/first111.png' );
+   margin-left:     212px;
+   margin-top:  -560px;
+   
+}
+.uslugi {
+    margin-top: 130px;
+}
+.uslugicon {
+    margin-left: 40px;
+    margin-bottom: 50px;
+
+}
+.uslugicon1 {
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+.usl h3 {
+font-size: 35px;
+margin-top: 130px;
+margin-bottom: 50px;
+}
+
+.right h4 {
+    margin-bottom: 0px;
+    margin-left: 470px;
+    margin-top: -390px;
+    font-size: 35px;
+}
+.right p {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 470px;
+}
+.right h5 {
+    margin-bottom: 0px;
+    margin-left: 470px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.left h6{
+    margin-bottom: 0px;
+    margin-left: 875px;
+    margin-top: -305px;
+    font-size: 35px;  
+}
+
+.left p{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 875px;
+}
+
+.etapimg {
+    margin-top: 300px;
+    height: 321px;
+    width: 1200px;
+    align-content: center;
+}
+.gallary h3{
+    font-size: 35px;
+margin-top: 130px;
+margin-bottom: 50px;
+}
+.galeft {
+   border-radius: 2px;
+   margin-bottom: 50px; 
+   margin-right:  25px;
+}
+.galeftt {
+    border-radius: 2px;
+   margin-bottom: 50px; 
+   margin-right:  0px;
+}
+.gal {
+   border-radius: 2px;
+   margin-bottom: 50px; 
+   margin-right:  25px;
+}
+.gall {
+    border-radius: 2px;
+   margin-bottom: 50px; 
+   margin-right:  0px;
+}
+.btn1 {
+margin: 0 auto;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 50px;
+  border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+  max-width: 180px;
+  transition: all 0.5s ease;
+    text-decoration: none;
+    color:  black;
+}
+.btn1:hover {
+  background: #ECF9F8;
+    color: #000;
+}
+
+.btn1:active {
+    background: #B5EFEB;
+    color: #000;
+}
+
+    
+    .googlephoto {
+        margin-left: 7px;     ;
+    }
+
+.contacts{
+        background-color: #ECF9F8; 
+        max-width: 1200px;
+        height:     639px;
+         margin-left: auto;
+    margin-right: auto; 
+    margin-top:     130px;   
+    }
+
+    .onas {
+
+width: 380px;
+height: 639px;
+margin-left:    820px;
+margin-top:     0px;
+    }
+
+    .contactscon h1 {
+        font-size:  35px;     
+       margin-left:    80px;
+        margin-top:     -539px;
+    }
+    .contactscon    h2   {
+        max-width: 57px;
+height: 20px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #000000;
+margin-top:     50px;
+margin-left:    80px;
+    }
+    .contactscon    p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 143%;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-left:    80px;
+margin-top:     14px;
+
+  } 
+  .co h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+  }
+  .co p{
+    margin-left:    0px;
+  }
+.co{
+    margin-left:    420px;
+    margin-top: -402px;
+}
+  .ikonss {
+    margin-left:    80px;
+margin-top:     8px;
+  }
+  .footer h1{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 128%;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-top: 130px;
+  }
+  .phone{
+    margin-right: 28px;
+    margin-top: 30px;
+    width: 135px;
+    height: 22px;
+  }
+  .phonee{
+    max-width: 135px;
+    height: 22px;
+  }
+  .footr li{
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+.footr li a{
+    text-decoration: none;
+    color: black;
+  }
+.loc{
+   width: 225px;
+    height: 20px; 
+    margin-top: 30px;
+}
+.center{
+margin-left: 410px;
+margin-top: -210px;
+}
+.center h2{  
+
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 16px;
+margin-bottom: 50px;
+
+
+}
+.menuf li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.menuf a{
+    color: black;
+}
+.menuf li{
+    margin-bottom: 15px;
+}
+
+.rig{
+margin-left: 820px;
+margin-top: -208px;
+}
+.rig h2{  
+
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 16px;
+margin-bottom: 50px;
+
+
+}
+.contactf li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.contactf a{
+    color: black;
+}
+.contactf li{
+    margin-bottom: 15px;
+}
+.footer{
+    margin-bottom: 130px;
+}
+.menu-open {
+    background: none;
+    border: none;
+    margin-right: 20px;
+    display: none
+}
+
+.header .show-menu {
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+    width: 50%;
+    padding: 40px 20px 20px 40px;
+}
+
+.header .show-menu li {
+    margin-bottom: 20px;
+}
